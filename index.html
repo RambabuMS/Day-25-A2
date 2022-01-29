@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 API</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+        
+        
+         <h1 class ="bg-info" style="text-align: center;">Covid-19 cases information on the Country basis </h1>   
+     <div class="box">-
+        <h2 class="text-danger" style="text-align: center;">There's <span>366,249,339</span> confirmed cases of Coronavirus around the world today.</h2>
+     </div>
+     <div class="inp">
+         <input type="text" name="country" id="cname" class="form-control" placeholder="Enter a Country name" required><br>
+         <!-- <label for="sname">Enter a State name:</label><br>
+         <input type="text" name="state" id="sname" class="form-control" placeholder="If required you can enter"><br> -->
+         <button onclick="covid()" style="width:500px;" class="btn btn-primary">Click it</button>
+     </div><br>
+     <div class="vac text-success">
+        <h1 style="text-align: center;">To date, the world has vaccinated 4,071,681,925 people.</h1>
+    </div><br>
+    <h1 style="text-align: center;">Country</h1>
+         <input type="text" name="state" id="sname" class="form-control" disabled style="border: none; background: transparent;"><br>
+         <div class="box1">
+             <div>
+            <label for="pop">Population:</label><br>
+             <input type="text" id="pop" name="population" class="form-control" disabled>
+            </div>
+            <div>
+             <label for="life">Life Expectancy:</label><br>
+             <input type="text" id="life" name="lifexpectancy" class="form-control" disabled>
+            </div>
+            <div>
+             <label for="confirm">Confirmed:</label><br>
+             <input type="text" id="confirm" name="confirmed" class="form-control" disabled>
+            </div>
+            <div>
+             <label for="recover">Recovered:</label><br>
+             <input type="text" id="recover" name="recovered" class="form-control" disabled>
+            </div>
+            <div>
+             <label for="dead">Deaths:</label><br>
+             <input type="text" id="dead" name="Deaths" class="form-control" disabled>
+
+            </div>
+         </div>
+         <!-- <div class="box2">
+             <h1>State</h1>
+             <label for="confirm">Confirmed:</label>
+             <input type="text" id="confirme" name="confirmed" class="form-control" disabled><br>
+             <label for="recover">Recovered:</label>
+             <input type="text" id="recovere" name="recovered" class="form-control" disabled><br>
+             <label for="dead">Deaths:</label>
+             <input type="text" id="death" name="Deaths" class="form-control" disabled><br>
+         </div> -->
+        
+    <script src="script.js"></script>
+</body>
+</html>

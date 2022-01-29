@@ -1,0 +1,19 @@
+
+.inp{
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+}
+
+#sname{
+    border: none;
+    font-size: xx-large;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 500px;
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+}
